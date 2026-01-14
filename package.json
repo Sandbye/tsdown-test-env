@@ -1,0 +1,13 @@
+{
+  "name": "tsdown-test-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter @repo/* --parallel --recursive run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.0"
+}
