@@ -1,0 +1,33 @@
+{
+  "name": "@repo/service",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A backend service built with tsdown",
+  "types": "./dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "start": "node ./dist/index.mjs",
+    "serve": "node ./src/index.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@repo/types": "workspace:*",
+    "@repo/types-export-as": "workspace:*",
+    "@repo/types-ns": "workspace:*",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.8",
+    "tsdown": "latest",
+    "typescript": "^5.9.3"
+  },
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  }
+}

@@ -1,0 +1,17 @@
+// Normally would split this up into lib and service configs,
+// for declaration map generation etc.
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "declaration": true,
+    "isolatedDeclarations": true, // Include this if you are using it!
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true
+  },
+  "include": ["${configDir}/src/**/*.ts"]
+}

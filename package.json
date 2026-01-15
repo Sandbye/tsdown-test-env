@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm --filter @repo/* --parallel --recursive run build"
+    "build": "pnpm --filter @repo/* --parallel --recursive run build",
+    "dev": "pnpm --filter @repo/* --parallel --recursive run dev",
+    "play": "pnpm --filter @repo/frontend run play"
   },
   "keywords": [],
   "author": "",
