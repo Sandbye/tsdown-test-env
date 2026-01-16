@@ -1,6 +1,6 @@
 # tsdown-test-env
 
-This repo tries to give examples and is an experimental monorepo (PNPM) utilzing tsdown.
+This repo tries to give examples and is an monorepo (PNPM) utilzing tsdown.
 
 ### Normal Modern ESM Modules ✅
 
